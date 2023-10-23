@@ -1,0 +1,27 @@
+[
+{
+  "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O3 -o CMakeFiles\\main.dir\\src\\main.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Vorlesung_5_Unit_testing\\is_prime\\src\\main.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/main.c"
+},
+{
+  "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O3 -o CMakeFiles\\main.dir\\src\\primes.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Vorlesung_5_Unit_testing\\is_prime\\src\\primes.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/primes.c"
+},
+{
+  "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/run_unit_tests.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O0 -ggdb3 -o CMakeFiles\\run_unit_tests.dir\\src\\unity.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Vorlesung_5_Unit_testing\\is_prime\\src\\unity.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/unity.c"
+},
+{
+  "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/run_unit_tests.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O0 -ggdb3 -o CMakeFiles\\run_unit_tests.dir\\src\\primes.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Vorlesung_5_Unit_testing\\is_prime\\src\\primes.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/primes.c"
+},
+{
+  "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/run_unit_tests.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O0 -ggdb3 -o CMakeFiles\\run_unit_tests.dir\\test\\test_primes.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Vorlesung_5_Unit_testing\\is_prime\\test\\test_primes.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/test/test_primes.c"
+}
+]
