@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/primes.c.obj: \
- C:\Users\Tim\OneDrive\Dokumente\FHGR\5.\ Semester\Software\ Engineering\Projekt_2\unit_tester_float_converter\src\primes.c \
+CMakeFiles/main.dir/src/float.c.obj: \
+ C:\Users\Tim\OneDrive\Dokumente\FHGR\5.\ Semester\Software\ Engineering\Projekt_2\unit_tester_float_converter\src\float.c \
  C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/PROJEK~2/UNIT_T~1/include/float.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h \

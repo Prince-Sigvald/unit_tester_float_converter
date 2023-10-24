@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime
+# Install script for directory: C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

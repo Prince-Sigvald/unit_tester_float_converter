@@ -24,7 +24,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake"
   "C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows.cmake"
   "C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake"
-  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/CMakeLists.txt"
+  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"

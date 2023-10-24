@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/main.c" "CMakeFiles/main.dir/src/main.c.obj" "gcc" "CMakeFiles/main.dir/src/main.c.obj.d"
-  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/primes.c" "CMakeFiles/main.dir/src/primes.c.obj" "gcc" "CMakeFiles/main.dir/src/primes.c.obj.d"
+  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/float.c" "CMakeFiles/main.dir/src/float.c.obj" "gcc" "CMakeFiles/main.dir/src/float.c.obj.d"
+  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/main.c" "CMakeFiles/main.dir/src/main.c.obj" "gcc" "CMakeFiles/main.dir/src/main.c.obj.d"
   )
 
 # Targets to which this target links.

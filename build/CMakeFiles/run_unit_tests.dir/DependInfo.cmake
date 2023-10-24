@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/primes.c" "CMakeFiles/run_unit_tests.dir/src/primes.c.obj" "gcc" "CMakeFiles/run_unit_tests.dir/src/primes.c.obj.d"
-  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/src/unity.c" "CMakeFiles/run_unit_tests.dir/src/unity.c.obj" "gcc" "CMakeFiles/run_unit_tests.dir/src/unity.c.obj.d"
-  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Vorlesung_5_Unit_testing/is_prime/test/test_primes.c" "CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj" "gcc" "CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj.d"
+  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/float.c" "CMakeFiles/run_unit_tests.dir/src/float.c.obj" "gcc" "CMakeFiles/run_unit_tests.dir/src/float.c.obj.d"
+  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/unity.c" "CMakeFiles/run_unit_tests.dir/src/unity.c.obj" "gcc" "CMakeFiles/run_unit_tests.dir/src/unity.c.obj.d"
+  "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/test/test_floats.c" "CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj" "gcc" "CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj.d"
   )
 
 # Targets to which this target links.
