@@ -6,8 +6,8 @@
 },
 {
   "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/build",
-  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O3 -o CMakeFiles\\main.dir\\src\\float.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Projekt_2\\unit_tester_float_converter\\src\\float.c\"",
-  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/float.c"
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/main.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O3 -o CMakeFiles\\main.dir\\src\\string_to_float.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Projekt_2\\unit_tester_float_converter\\src\\string_to_float.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/string_to_float.c"
 },
 {
   "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/build",
@@ -16,8 +16,8 @@
 },
 {
   "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/build",
-  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/run_unit_tests.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O0 -ggdb3 -o CMakeFiles\\run_unit_tests.dir\\src\\float.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Projekt_2\\unit_tester_float_converter\\src\\float.c\"",
-  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/float.c"
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\gcc.exe  @CMakeFiles/run_unit_tests.dir/includes_C.rsp -g -W -Wall -Wextra -pedantic -std=c17 -O0 -ggdb3 -o CMakeFiles\\run_unit_tests.dir\\src\\string_to_float.c.obj -c \"C:\\Users\\Tim\\OneDrive\\Dokumente\\FHGR\\5. Semester\\Software Engineering\\Projekt_2\\unit_tester_float_converter\\src\\string_to_float.c\"",
+  "file": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/src/string_to_float.c"
 },
 {
   "directory": "C:/Users/Tim/OneDrive/Dokumente/FHGR/5. Semester/Software Engineering/Projekt_2/unit_tester_float_converter/build",

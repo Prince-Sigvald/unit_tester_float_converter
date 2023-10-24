@@ -141,33 +141,6 @@ run_unit_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/build
 .PHONY : run_unit_tests/fast
 
-src/float.obj: src/float.c.obj
-.PHONY : src/float.obj
-
-# target to build an object file
-src/float.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/float.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/float.c.obj
-.PHONY : src/float.c.obj
-
-src/float.i: src/float.c.i
-.PHONY : src/float.i
-
-# target to preprocess a source file
-src/float.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/float.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/float.c.i
-.PHONY : src/float.c.i
-
-src/float.s: src/float.c.s
-.PHONY : src/float.s
-
-# target to generate assembly for a file
-src/float.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/float.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/float.c.s
-.PHONY : src/float.c.s
-
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -191,6 +164,33 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/string_to_float.obj: src/string_to_float.c.obj
+.PHONY : src/string_to_float.obj
+
+# target to build an object file
+src/string_to_float.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/string_to_float.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/string_to_float.c.obj
+.PHONY : src/string_to_float.c.obj
+
+src/string_to_float.i: src/string_to_float.c.i
+.PHONY : src/string_to_float.i
+
+# target to preprocess a source file
+src/string_to_float.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/string_to_float.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/string_to_float.c.i
+.PHONY : src/string_to_float.c.i
+
+src/string_to_float.s: src/string_to_float.c.s
+.PHONY : src/string_to_float.s
+
+# target to generate assembly for a file
+src/string_to_float.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/string_to_float.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/string_to_float.c.s
+.PHONY : src/string_to_float.c.s
 
 src/unity.obj: src/unity.c.obj
 .PHONY : src/unity.obj
@@ -250,12 +250,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... main
 	@echo ... run_unit_tests
-	@echo ... src/float.obj
-	@echo ... src/float.i
-	@echo ... src/float.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/string_to_float.obj
+	@echo ... src/string_to_float.i
+	@echo ... src/string_to_float.s
 	@echo ... src/unity.obj
 	@echo ... src/unity.i
 	@echo ... src/unity.s
