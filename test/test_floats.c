@@ -1,6 +1,6 @@
 /********************************************************************************
 Subject:        Software Engineering
-Description:    Main Programm, where the input comes from
+Description:    Tests if the input is a Float-Number
 
 Autor:          Tim Barmettler & Yan Gridling
 Firma:          FHGR / Mobile Robotics
@@ -17,18 +17,54 @@ Changes:
 /********************************************************************************
 Includes
 ********************************************************************************/
-#include <stdio.h>
-
+#include "unity.h"
 #include "float.h"
 
-
 /********************************************************************************
-Main
+Functions
 ********************************************************************************/
+void setUp(void)
+{
+}
+
+
+
+void tearDown(void)
+{
+}
+
+
+
+void test_zero_no_prime()
+{
+    TEST_ASSERT_FALSE(is_prime(0));
+}
+
+
+
+void test_even_numbers_no_prime()
+{
+    TEST_ASSERT_FALSE(is_prime(4));
+    TEST_ASSERT_FALSE(is_prime(6));
+    TEST_ASSERT_FALSE(is_prime(18));
+}
+
+
+
+void test_large_mersenne_primes()
+{
+    TEST_ASSERT(is_prime((1 << 11) - 1));
+    TEST_ASSERT(is_prime((1 << 23) - 1));
+    TEST_ASSERT(is_prime((1 << 29) - 1));
+}
+
+
+
 int main()
 {
-    uint64_t n = 2147483647UL;
-    //uint64_t n = 18446744073709551557ULL;
-    printf("Number %llu is %s prime\n",
-        n, is_prime(n) ? "a" : "no");
+    UNITY_BEGIN();
+    RUN_TEST(test_zero_no_prime);
+    RUN_TEST(test_even_numbers_no_prime);
+    RUN_TEST(test_large_mersenne_primes);
+    return UNITY_END();
 }

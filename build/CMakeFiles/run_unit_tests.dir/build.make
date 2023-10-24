@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime"
+CMAKE_SOURCE_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build"
+CMAKE_BINARY_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/run_unit_tests.dir/depend.make
@@ -70,66 +70,66 @@ include CMakeFiles/run_unit_tests.dir/flags.make
 
 CMakeFiles/run_unit_tests.dir/src/unity.c.obj: CMakeFiles/run_unit_tests.dir/flags.make
 CMakeFiles/run_unit_tests.dir/src/unity.c.obj: CMakeFiles/run_unit_tests.dir/includes_C.rsp
-CMakeFiles/run_unit_tests.dir/src/unity.c.obj: C:/Users/Tim/OneDrive/Dokumente/FHGR/5.\ Semester/Software\ Engineering/Vorlesung_5_Unit_testing/is_prime/src/unity.c
+CMakeFiles/run_unit_tests.dir/src/unity.c.obj: C:/Users/Tim/OneDrive/Dokumente/FHGR/5.\ Semester/Software\ Engineering/Projekt_2/unit_tester_float_converter/src/unity.c
 CMakeFiles/run_unit_tests.dir/src/unity.c.obj: CMakeFiles/run_unit_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/run_unit_tests.dir/src/unity.c.obj"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/run_unit_tests.dir/src/unity.c.obj -MF CMakeFiles\run_unit_tests.dir\src\unity.c.obj.d -o CMakeFiles\run_unit_tests.dir\src\unity.c.obj -c "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\src\unity.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/run_unit_tests.dir/src/unity.c.obj"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/run_unit_tests.dir/src/unity.c.obj -MF CMakeFiles\run_unit_tests.dir\src\unity.c.obj.d -o CMakeFiles\run_unit_tests.dir\src\unity.c.obj -c "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\src\unity.c"
 
 CMakeFiles/run_unit_tests.dir/src/unity.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/run_unit_tests.dir/src/unity.c.i"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\src\unity.c" > CMakeFiles\run_unit_tests.dir\src\unity.c.i
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\src\unity.c" > CMakeFiles\run_unit_tests.dir\src\unity.c.i
 
 CMakeFiles/run_unit_tests.dir/src/unity.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/run_unit_tests.dir/src/unity.c.s"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\src\unity.c" -o CMakeFiles\run_unit_tests.dir\src\unity.c.s
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\src\unity.c" -o CMakeFiles\run_unit_tests.dir\src\unity.c.s
 
-CMakeFiles/run_unit_tests.dir/src/primes.c.obj: CMakeFiles/run_unit_tests.dir/flags.make
-CMakeFiles/run_unit_tests.dir/src/primes.c.obj: CMakeFiles/run_unit_tests.dir/includes_C.rsp
-CMakeFiles/run_unit_tests.dir/src/primes.c.obj: C:/Users/Tim/OneDrive/Dokumente/FHGR/5.\ Semester/Software\ Engineering/Vorlesung_5_Unit_testing/is_prime/src/primes.c
-CMakeFiles/run_unit_tests.dir/src/primes.c.obj: CMakeFiles/run_unit_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/run_unit_tests.dir/src/primes.c.obj"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/run_unit_tests.dir/src/primes.c.obj -MF CMakeFiles\run_unit_tests.dir\src\primes.c.obj.d -o CMakeFiles\run_unit_tests.dir\src\primes.c.obj -c "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\src\primes.c"
+CMakeFiles/run_unit_tests.dir/src/float.c.obj: CMakeFiles/run_unit_tests.dir/flags.make
+CMakeFiles/run_unit_tests.dir/src/float.c.obj: CMakeFiles/run_unit_tests.dir/includes_C.rsp
+CMakeFiles/run_unit_tests.dir/src/float.c.obj: C:/Users/Tim/OneDrive/Dokumente/FHGR/5.\ Semester/Software\ Engineering/Projekt_2/unit_tester_float_converter/src/float.c
+CMakeFiles/run_unit_tests.dir/src/float.c.obj: CMakeFiles/run_unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/run_unit_tests.dir/src/float.c.obj"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/run_unit_tests.dir/src/float.c.obj -MF CMakeFiles\run_unit_tests.dir\src\float.c.obj.d -o CMakeFiles\run_unit_tests.dir\src\float.c.obj -c "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\src\float.c"
 
-CMakeFiles/run_unit_tests.dir/src/primes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/run_unit_tests.dir/src/primes.c.i"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\src\primes.c" > CMakeFiles\run_unit_tests.dir\src\primes.c.i
+CMakeFiles/run_unit_tests.dir/src/float.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/run_unit_tests.dir/src/float.c.i"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\src\float.c" > CMakeFiles\run_unit_tests.dir\src\float.c.i
 
-CMakeFiles/run_unit_tests.dir/src/primes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/run_unit_tests.dir/src/primes.c.s"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\src\primes.c" -o CMakeFiles\run_unit_tests.dir\src\primes.c.s
+CMakeFiles/run_unit_tests.dir/src/float.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/run_unit_tests.dir/src/float.c.s"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\src\float.c" -o CMakeFiles\run_unit_tests.dir\src\float.c.s
 
-CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj: CMakeFiles/run_unit_tests.dir/flags.make
-CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj: CMakeFiles/run_unit_tests.dir/includes_C.rsp
-CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj: C:/Users/Tim/OneDrive/Dokumente/FHGR/5.\ Semester/Software\ Engineering/Vorlesung_5_Unit_testing/is_prime/test/test_primes.c
-CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj: CMakeFiles/run_unit_tests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj -MF CMakeFiles\run_unit_tests.dir\test\test_primes.c.obj.d -o CMakeFiles\run_unit_tests.dir\test\test_primes.c.obj -c "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\test\test_primes.c"
+CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj: CMakeFiles/run_unit_tests.dir/flags.make
+CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj: CMakeFiles/run_unit_tests.dir/includes_C.rsp
+CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj: C:/Users/Tim/OneDrive/Dokumente/FHGR/5.\ Semester/Software\ Engineering/Projekt_2/unit_tester_float_converter/test/test_floats.c
+CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj: CMakeFiles/run_unit_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj -MF CMakeFiles\run_unit_tests.dir\test\test_floats.c.obj.d -o CMakeFiles\run_unit_tests.dir\test\test_floats.c.obj -c "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\test\test_floats.c"
 
-CMakeFiles/run_unit_tests.dir/test/test_primes.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/run_unit_tests.dir/test/test_primes.c.i"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\test\test_primes.c" > CMakeFiles\run_unit_tests.dir\test\test_primes.c.i
+CMakeFiles/run_unit_tests.dir/test/test_floats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/run_unit_tests.dir/test/test_floats.c.i"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\test\test_floats.c" > CMakeFiles\run_unit_tests.dir\test\test_floats.c.i
 
-CMakeFiles/run_unit_tests.dir/test/test_primes.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/run_unit_tests.dir/test/test_primes.c.s"
-	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\test\test_primes.c" -o CMakeFiles\run_unit_tests.dir\test\test_primes.c.s
+CMakeFiles/run_unit_tests.dir/test/test_floats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/run_unit_tests.dir/test/test_floats.c.s"
+	C:\Qt\Tools\mingw1120_64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\test\test_floats.c" -o CMakeFiles\run_unit_tests.dir\test\test_floats.c.s
 
 # Object files for target run_unit_tests
 run_unit_tests_OBJECTS = \
 "CMakeFiles/run_unit_tests.dir/src/unity.c.obj" \
-"CMakeFiles/run_unit_tests.dir/src/primes.c.obj" \
-"CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj"
+"CMakeFiles/run_unit_tests.dir/src/float.c.obj" \
+"CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj"
 
 # External object files for target run_unit_tests
 run_unit_tests_EXTERNAL_OBJECTS =
 
 run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/src/unity.c.obj
-run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/src/primes.c.obj
-run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj
+run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/src/float.c.obj
+run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj
 run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/build.make
 run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/linklibs.rsp
 run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/objects1.rsp
 run_unit_tests.exe: CMakeFiles/run_unit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable run_unit_tests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable run_unit_tests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\run_unit_tests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/run_unit_tests.dir/clean:
 .PHONY : CMakeFiles/run_unit_tests.dir/clean
 
 CMakeFiles/run_unit_tests.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles\run_unit_tests.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles\run_unit_tests.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/run_unit_tests.dir/depend
 

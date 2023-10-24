@@ -1,6 +1,6 @@
 /********************************************************************************
 Subject:        Software Engineering
-Description:    Main Programm, where the input comes from
+Description:    Defines what a Float-Number could look like
 
 Autor:          Tim Barmettler & Yan Gridling
 Firma:          FHGR / Mobile Robotics
@@ -17,18 +17,24 @@ Changes:
 /********************************************************************************
 Includes
 ********************************************************************************/
-#include <stdio.h>
-
 #include "float.h"
 
 
 /********************************************************************************
-Main
+Functions
 ********************************************************************************/
-int main()
+bool is_prime(uint64_t n)
 {
-    uint64_t n = 2147483647UL;
-    //uint64_t n = 18446744073709551557ULL;
-    printf("Number %llu is %s prime\n",
-        n, is_prime(n) ? "a" : "no");
+    if (n < 2)
+        return false;
+    if (n == 2)
+        return true;
+    if ((n % 2) == 0)
+        return false;
+    for (uint64_t i = 3; i * i <= n; i += 2)
+    {
+        if ((n % i) == 0)
+            return false;
+    }
+    return true;
 }

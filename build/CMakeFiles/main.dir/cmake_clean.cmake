@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/float.c.obj"
+  "CMakeFiles/main.dir/src/float.c.obj.d"
   "CMakeFiles/main.dir/src/main.c.obj"
   "CMakeFiles/main.dir/src/main.c.obj.d"
-  "CMakeFiles/main.dir/src/primes.c.obj"
-  "CMakeFiles/main.dir/src/primes.c.obj.d"
   "libmain.dll.a"
   "main.exe"
   "main.exe.manifest"

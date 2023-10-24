@@ -1,7 +1,7 @@
 CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj: \
- C:\Users\Tim\OneDrive\Dokumente\FHGR\5.\ Semester\Software\ Engineering\Vorlesung_5_Unit_testing\is_prime\test\test_primes.c \
- C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/VORLES~4/is_prime/include/unity.h \
- C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/VORLES~4/is_prime/include/unity_internals.h \
+ C:\Users\Tim\OneDrive\Dokumente\FHGR\5.\ Semester\Software\ Engineering\Projekt_2\unit_tester_float_converter\test\test_primes.c \
+ C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/PROJEK~2/UNIT_T~1/include/unity.h \
+ C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/PROJEK~2/UNIT_T~1/include/unity_internals.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/setjmp.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/corecrt.h \
@@ -24,5 +24,5 @@ CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj: \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/swprintf.inl \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
- C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/VORLES~4/is_prime/include/primes.h \
+ C:/Users/Tim/OneDrive/DOKUME~1/FHGR/58A3C~1.SEM/SOFTWA~1/PROJEK~2/UNIT_T~1/include/primes.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdbool.h

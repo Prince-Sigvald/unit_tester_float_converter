@@ -12,7 +12,7 @@ add_compile_options(-W -Wall -Wextra -pedantic -std=c17)
 # Main executable, release
 add_executable(main
   src/main.c
-  src/primes.c
+  src/float.c
 )
 target_compile_options(main PRIVATE -O3)
 target_link_options(main PRIVATE -s)
@@ -20,8 +20,8 @@ target_link_options(main PRIVATE -s)
 # Unit test executable
 add_executable(run_unit_tests
   src/unity.c
-  src/primes.c
-  test/test_primes.c
+  src/float.c
+  test/test_floats.c
 )
 target_compile_options(run_unit_tests PRIVATE -O0 -ggdb3)
 #-fprofile-instr-generate -fcoverage-mapping -fsanitize=address -fno-omit-frame-pointer

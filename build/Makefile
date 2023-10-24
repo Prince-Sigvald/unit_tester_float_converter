@@ -56,10 +56,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime"
+CMAKE_SOURCE_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build"
+CMAKE_BINARY_DIR = "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles" "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Vorlesung_5_Unit_testing\is_prime\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Tim\OneDrive\Dokumente\FHGR\5. Semester\Software Engineering\Projekt_2\unit_tester_float_converter\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,33 @@ run_unit_tests/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/build
 .PHONY : run_unit_tests/fast
 
+src/float.obj: src/float.c.obj
+.PHONY : src/float.obj
+
+# target to build an object file
+src/float.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/float.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/float.c.obj
+.PHONY : src/float.c.obj
+
+src/float.i: src/float.c.i
+.PHONY : src/float.i
+
+# target to preprocess a source file
+src/float.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/float.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/float.c.i
+.PHONY : src/float.c.i
+
+src/float.s: src/float.c.s
+.PHONY : src/float.s
+
+# target to generate assembly for a file
+src/float.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/float.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/float.c.s
+.PHONY : src/float.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -164,33 +191,6 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.c.s
 .PHONY : src/main.c.s
-
-src/primes.obj: src/primes.c.obj
-.PHONY : src/primes.obj
-
-# target to build an object file
-src/primes.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/primes.c.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/primes.c.obj
-.PHONY : src/primes.c.obj
-
-src/primes.i: src/primes.c.i
-.PHONY : src/primes.i
-
-# target to preprocess a source file
-src/primes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/primes.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/primes.c.i
-.PHONY : src/primes.c.i
-
-src/primes.s: src/primes.c.s
-.PHONY : src/primes.s
-
-# target to generate assembly for a file
-src/primes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/primes.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/primes.c.s
-.PHONY : src/primes.c.s
 
 src/unity.obj: src/unity.c.obj
 .PHONY : src/unity.obj
@@ -216,29 +216,29 @@ src/unity.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/src/unity.c.s
 .PHONY : src/unity.c.s
 
-test/test_primes.obj: test/test_primes.c.obj
-.PHONY : test/test_primes.obj
+test/test_floats.obj: test/test_floats.c.obj
+.PHONY : test/test_floats.obj
 
 # target to build an object file
-test/test_primes.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/test/test_primes.c.obj
-.PHONY : test/test_primes.c.obj
+test/test_floats.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/test/test_floats.c.obj
+.PHONY : test/test_floats.c.obj
 
-test/test_primes.i: test/test_primes.c.i
-.PHONY : test/test_primes.i
+test/test_floats.i: test/test_floats.c.i
+.PHONY : test/test_floats.i
 
 # target to preprocess a source file
-test/test_primes.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/test/test_primes.c.i
-.PHONY : test/test_primes.c.i
+test/test_floats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/test/test_floats.c.i
+.PHONY : test/test_floats.c.i
 
-test/test_primes.s: test/test_primes.c.s
-.PHONY : test/test_primes.s
+test/test_floats.s: test/test_floats.c.s
+.PHONY : test/test_floats.s
 
 # target to generate assembly for a file
-test/test_primes.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/test/test_primes.c.s
-.PHONY : test/test_primes.c.s
+test/test_floats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\run_unit_tests.dir\build.make CMakeFiles/run_unit_tests.dir/test/test_floats.c.s
+.PHONY : test/test_floats.c.s
 
 # Help Target
 help:
@@ -250,18 +250,18 @@ help:
 	@echo ... rebuild_cache
 	@echo ... main
 	@echo ... run_unit_tests
+	@echo ... src/float.obj
+	@echo ... src/float.i
+	@echo ... src/float.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/primes.obj
-	@echo ... src/primes.i
-	@echo ... src/primes.s
 	@echo ... src/unity.obj
 	@echo ... src/unity.i
 	@echo ... src/unity.s
-	@echo ... test/test_primes.obj
-	@echo ... test/test_primes.i
-	@echo ... test/test_primes.s
+	@echo ... test/test_floats.obj
+	@echo ... test/test_floats.i
+	@echo ... test/test_floats.s
 .PHONY : help
 
 
