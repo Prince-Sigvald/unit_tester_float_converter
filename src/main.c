@@ -18,17 +18,22 @@ Changes:
 Includes
 ********************************************************************************/
 #include <stdio.h>
-
-#include "float.h"
+#include "string_to_float.h"
 
 
 /********************************************************************************
 Main
 ********************************************************************************/
-int main()
-{
-    uint64_t n = 2147483647UL;
-    //uint64_t n = 18446744073709551557ULL;
-    printf("Number %llu is %s prime\n",
-        n, is_prime(n) ? "a" : "no");
+int main() {
+    const char *str = "500.0894 "; // Example-String
+    double result; // converted value
+
+    // Call function and save result
+    if (string_to_float(str, &result)) {
+        printf("Converted float value: %f\n", result);
+    } else {
+        printf("Conversion failed: %f\n", result);
+    }
+
+    return 0;
 }
