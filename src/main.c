@@ -25,7 +25,7 @@ Includes
 Main
 ********************************************************************************/
 int main() {
-    const char *str = "500.0894 "; // Example-String
+    const char *str = "-12.12e-2"; // Example-String
     double result; // converted value
 
     // Call function and save result
