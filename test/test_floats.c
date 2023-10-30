@@ -45,6 +45,7 @@ void test_invalid_string() {
     double result;
     TEST_ASSERT_FALSE(string_to_float("abc", &result));
     TEST_ASSERT_FALSE(string_to_float("12a23", &result));
+    TEST_ASSERT_FALSE(string_to_float("12-!23", &result));
 }
 
 void test_float_conversion() {
@@ -79,12 +80,21 @@ void test_whitespaces() {
     TEST_ASSERT_TRUE(string_to_float(" 123 ", &result));
     TEST_ASSERT_TRUE(string_to_float(" 1 23", &result));
     TEST_ASSERT_TRUE(string_to_float(" 1 2 3 ", &result));
+    TEST_ASSERT_TRUE(string_to_float(" 1 2 3 . 4 5 ", &result));
+    TEST_ASSERT_TRUE(string_to_float(" 1 2 3 ,   4 5 ", &result));
     TEST_ASSERT_TRUE(string_to_float(" +10", &result));
     TEST_ASSERT_TRUE(string_to_float(" -10", &result));
 }
 
+void test_prime() {
+    double result;
+    TEST_ASSERT_TRUE(string_to_float("545'506.006", &result));
+    TEST_ASSERT_TRUE(string_to_float("545`506.006", &result));
+}
+
 void test_exponentials() {
     double result;
+    TEST_ASSERT_TRUE(string_to_float("12e2", &result));
     TEST_ASSERT_TRUE(string_to_float("1.2e2", &result));
     TEST_ASSERT_TRUE(string_to_float("-12.12e-2", &result));
 }
@@ -109,7 +119,8 @@ int main()
     RUN_TEST(test_positive);
     RUN_TEST(test_negative);
     RUN_TEST(test_whitespaces);
-    //RUN_TEST(test_exponentials);
+    RUN_TEST(test_prime);
+    RUN_TEST(test_exponentials);
     //RUN_TEST(test_overflow);
     return UNITY_END();
 }

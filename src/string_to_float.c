@@ -54,12 +54,41 @@ bool string_to_float(const char *str, double *d) {
     double fractionalPart = 0;
     double divisorForFractionalPart = 1;
     int afterDecimal = 0;
+    int exponentSign = 1;
+    bool isExponential = false;
+    double exponentialPart = 0;
 
     // Process the whole rest of the string
     while (*str != '\0' && *str != '\n') {
         if (*str >= '0' && *str <= '9') {
             integerPart = integerPart * 10 + (*str - '0');
             str++;
+        } else if (*str == '\'' || *str == '`') {
+            str++;
+        } else if (*str == ' ') {
+            str++;
+        } else if (*str == 'e' || *str == 'E') {
+            isExponential = true;
+            str++;
+            while (isExponential == true && *str != '\0' && *str != '\n') {
+                if (*str == '-') {
+                    exponentSign = -1;
+                    str++;
+                } else if (*str == '+') {
+                    str++;
+                } 
+                while (*str != '\0' && *str != '\n') {
+                    if (*str >= '0' && *str <= '9') {
+                        int newExponentialPart = *str - '0';
+                        exponentialPart = exponentialPart * 10 + newExponentialPart;
+                        str++;
+                    } else if (*str == ' ') {
+                        str++;
+                    } else {
+                        return false;
+                    }
+                }
+            }
         } else if (*str == '.' || *str == ',') {
             str++;
             while (*str != '\0' && *str != '\n') {
@@ -70,20 +99,45 @@ bool string_to_float(const char *str, double *d) {
                     afterDecimal = 1;
                 } else if (*str == ' ') {
                     str++;
+                } else if (*str == 'e' || *str == 'E') {
+                    isExponential = true;
+                    str++;
+                    while (isExponential == true && *str != '\0' && *str != '\n') {
+                        if (*str == '-') {
+                            exponentSign = -1;
+                            str++;
+                        } else if (*str == '+') {
+                            str++;
+                        } 
+                        while (*str != '\0' && *str != '\n') {
+                            if (*str >= '0' && *str <= '9') {
+                                int newExponentialPart = *str - '0';
+                                exponentialPart = exponentialPart * 10 + newExponentialPart;
+                                str++;
+                            } else if (*str == ' ') {
+                                str++;
+                            } else {
+                                return false;
+                            }
+                        }
+                    }
                 } else {
                     return false;
                 }
             }
-        } else if (*str == ' ') {
-            str++;
-        } else {
+        } 
+        else {
             return false;
         }
     }
 
-    // Combine integer and fractional parts
-    *d = sign * (integerPart + fractionalPart / divisorForFractionalPart);
-
+    // Apply exponential value
+    if (exponentialPart != 0) {
+        *d = sign * (integerPart + fractionalPart / divisorForFractionalPart) * pow(10, exponentSign * exponentialPart);
+    } else {
+        // Combine integer and fractional parts
+        *d = sign * (integerPart + fractionalPart / divisorForFractionalPart);
+    }
     // Return true if the conversion was successful
     return (afterDecimal == 1) || integerPart != 0 || (integerPart == 0 && fractionalPart == 0);
 }
